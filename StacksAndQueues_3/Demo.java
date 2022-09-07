@@ -11,6 +11,15 @@ public class Demo {
 
         int index = -1;
 
+        //Constant operation O(1)   -> true for HashMap<>
+        //           arr[2]
+        //           arr[1_000] both operations run for the same time
+
+        //O(log(n))
+        //  TreeMap<>
+        //  BinarySearch -> разделя елементите на две части домато не намери нашия елемент
+
+
         for (int i = 0; i <arr.length ; i++) {
             if (arr[i]==element){
                 index = i;
