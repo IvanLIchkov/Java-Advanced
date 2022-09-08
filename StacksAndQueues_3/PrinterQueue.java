@@ -10,7 +10,7 @@ public class PrinterQueue {
         ArrayDeque<String> queue=new ArrayDeque<>();
         while (!commands.equals("print")){
             if (commands.equals("cancel")){
-                if (queue.size()==0){
+                if (queue.isEmpty()){
                     System.out.println("Printer is on standby");
                 }else{
                     System.out.println("Canceled "+queue.peek());
