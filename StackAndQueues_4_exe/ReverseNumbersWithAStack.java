@@ -14,6 +14,6 @@ public class ReverseNumbersWithAStack {
         }
         for (Integer integer : reversedOrder) {
             System.out.print(integer + " ");
-        }//
+        }
     }
 }
