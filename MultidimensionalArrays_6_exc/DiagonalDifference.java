@@ -10,13 +10,14 @@ public class DiagonalDifference {
         int sumOfDiagonals=0;
         for (int row = 0; row < matrix.length ; row++) {
            sumOfDiagonals+=matrix[row][row];
+           sumOfDiagonals-=matrix[row][matrix.length-1-row];
         }
-        int col=matrix.length-1;
-        for (int row = 0; row < matrix.length ; row++) {
-                sumOfDiagonals-=matrix[row][col];
-                col--;
-
-        }
+//        int col=matrix.length-1;
+//        for (int row = 0; row < matrix.length ; row++) {
+//                sumOfDiagonals-=matrix[row][col];
+//                col--;
+//
+//        }
         System.out.println(Math.abs(sumOfDiagonals));
     }
 
