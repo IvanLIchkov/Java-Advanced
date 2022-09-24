@@ -1,41 +1,50 @@
-package SetsAndMapsAdvanced_8_exc;
+package javaAdvanced.setsAndMaps;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import java.util.Map;
-import java.util.Scanner;
+import java.util.TreeMap;
 
 public class UserLogs {
-    public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        LinkedHashMap<String, LinkedHashMap<String, Integer>> logs=new LinkedHashMap<>();
-        String input= scan.nextLine();
-        while (!input.equals("end")){
-            String[] arr=input.split(" ");
-            String ip=arr[0].substring(3);
-            String user=arr[2].substring(5);
-            logs.putIfAbsent(user, new LinkedHashMap<>());
-            for (var entry : logs.entrySet()) {
-                LinkedHashMap<String, Integer> ipAndLogs = entry.getValue();
-                if (ipAndLogs.containsKey(ip)) {
-                    ipAndLogs.put(ip, ipAndLogs.get(ip) + 1);
-                }else{
-                    ipAndLogs.put(ip, 1);
-                }
-            }
+    public static void main(String[] args) throws IOException {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
-            input= scan.nextLine();
+        Map<String, Map<String, Integer>> nameToIpToCount = new TreeMap<>();
+
+        String line = "";
+        while (!(line = reader.readLine()).equals("end")) {
+            String ip = line.substring(line.indexOf("=") + 1, line.indexOf(" "));
+            String user = line.substring(line.lastIndexOf("=") + 1);
+
+            nameToIpToCount.putIfAbsent(user, new LinkedHashMap<>());
+
+            Map<String, Integer> ipToCountInternMap = nameToIpToCount.get(user);
+            ipToCountInternMap.putIfAbsent(ip, 0);
+            ipToCountInternMap.put(ip, ipToCountInternMap.get(ip) + 1);
         }
-        for (var log : logs.entrySet()) {
-            System.out.printf("%s:%n",log.getKey());
-        LinkedHashMap<String, Integer> attacks=log.getValue();
-        StringBuilder sb=new StringBuilder();
-            for (var singleIpAttack : attacks.entrySet()){
-                String formattedAttack=String.format("%s => %d, ",singleIpAttack.getKey(), singleIpAttack.getValue());
-                sb.append(formattedAttack);
-            }
-            String finalOutput= sb.substring(0,sb.length()-2);
-            finalOutput=finalOutput+".";
-            System.out.println(finalOutput);
-        }
+
+        nameToIpToCount.entrySet().stream()
+                .forEach(e -> {
+                    System.out.println(e.getKey() + ":");
+
+                    int count = 0;
+                    Map<String, Integer> value = e.getValue();
+
+                    for (Map.Entry<String, Integer> secondMap : value.entrySet()) {
+
+                        String format =
+                                (count++ == value.size() - 1)
+                                        ? "%s => %d.%n"
+                                        : "%s => %d, ";
+
+                        System.out.printf(format, secondMap.getKey(), secondMap.getValue());
+                    }
+
+
+                });
+
+
     }
 }
