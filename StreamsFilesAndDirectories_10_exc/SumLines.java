@@ -20,7 +20,6 @@ public class SumLines {
                 }
                 System.out.println(sum);
                 line=reader.readLine();
-
             }
         }catch (IOException e){
             e.printStackTrace();
