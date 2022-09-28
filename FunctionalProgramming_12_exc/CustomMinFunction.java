@@ -1,6 +1,7 @@
 package FunctionalProgramming_12_exc;
 
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 import java.util.function.Function;
@@ -22,6 +23,7 @@ public class CustomMinFunction {
             return min;
         };
 //        Function<int[], Integer>function=arr->Arrays.stream(arr).min().getAsInt(); //TODO същото като горното но по-кратко написано
+//        Function<int[], Integer> function2=arr-> Collections.min(Arrays.stream(arr).boxed().collect(Collectors.toList())); //TODO още един начин но този път със големия Integer.
         System.out.println(smallestInt.apply(numbers));
     }
 }
