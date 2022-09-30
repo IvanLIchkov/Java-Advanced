@@ -1,6 +1,4 @@
-package DefiningClasses_13.CarInfo_01;
-
-import DefiningClasses_13.CarInfo_01.Car;
+package DefiningClasses_13;
 
 import java.util.Scanner;
 

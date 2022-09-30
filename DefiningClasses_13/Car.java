@@ -1,4 +1,4 @@
-package DefiningClasses_13.CarInfo_01;
+package DefiningClasses_13;
 
 import java.util.Objects;
 
