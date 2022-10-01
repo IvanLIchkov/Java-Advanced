@@ -1,12 +1,12 @@
 package DefiningClasses_14_exc;
 
-public class Car {
+public class Car01 {
     private String model;
     private double fuelAmount;
     private double fuelConsumption;
     private  int distance;
 
-    public Car(String model, double fuelAmount, double fuelConsumption){
+    public Car01(String model, double fuelAmount, double fuelConsumption){
         this.model=model;
         this.fuelAmount=fuelAmount;
         this.fuelConsumption=fuelConsumption;
