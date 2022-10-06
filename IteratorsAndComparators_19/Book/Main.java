@@ -13,6 +13,10 @@ public class Main {
         books.add(bookOne);
         books.add(bookTwo);
         books.add(bookThree);
+
+        books.stream()
+                .sorted(new BookComparatorByYear())//Така може да имплементираме различни компаратори чрез класове
+                .forEach(System.out::println);
     }
 
 }
