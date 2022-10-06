@@ -6,15 +6,14 @@ import java.util.Scanner;
 public class Demo {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        printString("Hello", "world", "!");
-        printString("Hello", "world");
-        printString();
+        printObject("Hello", "world", "!");
+        printObject("Hello", "world");
+        printObject();
     }
-    public static void printString(String... str){
-        String[] strings=str;
-        if (strings.length==0){
+    public static<T> void printObject(T... str){
+        if (str.length==0){
             System.out.println("Please add input");
         }
-        Arrays.stream(strings).forEach(System.out::println);
+        Arrays.stream(str).forEach(System.out::println);
     }
 }
