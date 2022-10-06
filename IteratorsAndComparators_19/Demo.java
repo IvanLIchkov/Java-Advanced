@@ -10,10 +10,10 @@ public class Demo {
         printObject("Hello", "world");
         printObject();
     }
-    public static<T> void printObject(T... str){
-        if (str.length==0){
+    public static<T> void printObject(T... objects){
+        if (objects.length==0){
             System.out.println("Please add input");
         }
-        Arrays.stream(str).forEach(System.out::println);
+        Arrays.stream(objects).forEach(System.out::println);
     }
 }
