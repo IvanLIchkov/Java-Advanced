@@ -1,4 +1,4 @@
-package IteratorsAndComparators_20_exc;
+package IteratorsAndComparators_20_exc.ListyIterator;
 
 import java.util.Arrays;
 import java.util.Scanner;
