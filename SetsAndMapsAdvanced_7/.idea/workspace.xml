@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2799507a-b911-4947-b690-c67d8610f2fb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../ExamPreparation/src/ExamAugust2021/cafe/cafe.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExamPreparation/src/ExamFebrurary2022/FoodFinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExamPreparation/src/ExamFebrurary2022/PawnWars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExamPreparation/src/ExamOctober2021/hotel/hotel.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SetsAndMapsAdvanced_7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyExam/RallyRacing.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,14 +24,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/scopi/Desktop/Java-Advanced/SetsAndMapsAdvanced_7",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/scopi/Desktop/Java-Advanced/SetsAndMapsAdvanced_7&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

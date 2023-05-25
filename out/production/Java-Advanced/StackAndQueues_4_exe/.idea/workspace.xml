@@ -5,9 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a218db3-eebb-45ed-b469-52ad4d7bf967" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../MyExam/RallyRacing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SetsAndMapsAdvanced_7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SetsAndMapsAdvanced_7/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExamPreparation/src/ExamFeb2020/LootBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExamPreparation/src/ExamFeb2020/ReVolt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExamPreparation/src/RetakeExamDec2019/PresentDelivery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExamPreparation/src/RetakeExamDec2019/christmas/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StackAndQueues_4_exe.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StacksAndQueues_3/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StacksAndQueues_3/StacksAndQueues_3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Java-Advanced/ExamPreparation/Java-Advanced-ExamPreparation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamPreparation/src/RetakeExamDec2019/SantaPresentFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ExamPreparation/src/RetakeExamDec2019/SantaPresentFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Java-Advanced/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/Java-Advanced/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

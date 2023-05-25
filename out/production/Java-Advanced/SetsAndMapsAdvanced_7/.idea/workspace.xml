@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a218db3-eebb-45ed-b469-52ad4d7bf967" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../MyExam/RallyRacing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SetsAndMapsAdvanced_7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SetsAndMapsAdvanced_7/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2799507a-b911-4947-b690-c67d8610f2fb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../ExamPreparation/src/ExamAugust2021/cafe/cafe.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExamPreparation/src/ExamFebrurary2022/FoodFinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExamPreparation/src/ExamFebrurary2022/PawnWars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExamPreparation/src/ExamOctober2021/hotel/hotel.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SetsAndMapsAdvanced_7.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,28 +26,28 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2FwmxvajpVIue9zcMQyrweA0WTU" />
+  <component name="ProjectId" id="2GFmFayYpXFcu8t9QQp38HbSgqr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/scopi/Desktop/Java-Advanced/StackAndQueues_4_exe&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/scopi/Desktop/Java-Advanced/SetsAndMapsAdvanced_7",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7a218db3-eebb-45ed-b469-52ad4d7bf967" name="Changes" comment="" />
-      <created>1665411770967</created>
+      <changelist id="2799507a-b911-4947-b690-c67d8610f2fb" name="Changes" comment="" />
+      <created>1665992602685</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1665411770967</updated>
+      <updated>1665992602685</updated>
     </task>
     <servers />
   </component>
